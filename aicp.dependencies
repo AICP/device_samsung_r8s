@@ -50,11 +50,6 @@
     "branch": "w16.0"
   },
   {
-    "repository": "AICP/hardware_samsung_slsi_scsc_wifibt_wifi_hal",
-    "target_path": "hardware/samsung_slsi/scsc_wifibt/wifi_hal",
-    "branch": "w16.0"
-  },
-  {
     "repository": "AICP/hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib",
     "target_path": "hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib",
     "branch": "w16.0"
