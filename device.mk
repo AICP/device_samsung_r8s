@@ -54,7 +54,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung_slsi-linaro/exynos/gralloc/gralloc3
 
 # Inherit from common
-$(call inherit-product, device/samsung/universal9830-common/device-common.mk)
+$(call inherit-product, device/samsung/universal9830-common/common.mk)
 
 # Inherit from the proprietary version
 $(call inherit-product-if-exists, vendor/samsung/r8s/r8s-vendor.mk)
