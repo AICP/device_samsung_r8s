@@ -38,7 +38,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf
 
 # Overlays 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGES += \
+    FrameworkResOverlayDevice \
+    SettingsOverlayDevice \
+    SettingsProviderOverlayDevice \
+    SystemUIOverlayDevice \
+    WiFiOverlayDevice
 
 # Sensors
 PRODUCT_COPY_FILES += \
@@ -69,8 +74,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     hostapd \
     wpa_supplicant \
-    wpa_supplicant.conf \
-    WifiOverlay
+    wpa_supplicant.conf
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/macloader/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader
