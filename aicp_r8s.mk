@@ -44,3 +44,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Define PDA property for camera
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.build.PDA=G780FXXSOFYJ1
+
+# AICP Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="kernel2 (objectfigure)"
